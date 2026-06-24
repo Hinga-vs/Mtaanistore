@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    background-color: rgb(252, 8, 121);
+    color: aliceblue;
+    line-height: 80px;
+    
+    
+
+
+}
+img{
+    width: 320px;
+    height: 200px;
+    border-radius: 15px;
+    
+}
+h1:hover{
+    background-color: black;
+    color: crimson;
+    text-decoration: crimson;
+    
+}
+
+}
