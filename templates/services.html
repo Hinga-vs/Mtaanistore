@@ -1,0 +1,33 @@
+<!--ALWAYS REMEMBER TO LOAD STATIC BEFORE USING ANYTHIN INSIDE THE STATIC FOLDER-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Page</title>
+
+
+
+
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+    <!--NOTE ...LINK THEM AFTER THE {% load static%} STATEMENT-->
+
+</head>
+<body>
+   <h1 class="text-center text-danger ">Services offered at MtaaniStore</h1>
+
+   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi eos assumenda provident animi dolorum cumque iusto molestias veniam earum a porro ipsa impedit officiis labore, recusandae quisquam harum fugiat eaque.
+    Sunt cumque officiis rerum? Quod quia provident voluptas quibusdam sit alias, possimus saepe quo quos nesciunt voluptatem velit odit quas ipsam, reiciendis facere optio deleniti voluptatibus quasi ipsa non nobis!
+    Quo reprehenderit delectus voluptatem, voluptas commodi labore numquam minima ratione! Veniam, dignissimos? Reprehenderit praesentium quidem explicabo quis, mollitia totam exercitationem rerum maiores iure commodi labore a ullam dignissimos in inventore!</p> 
+    
+  <img src="{%   static 'images/prod.jpeg' %}" alt="">
+  <img src="{%   static 'images/prod2.jpeg' %}" alt="">
+  <img src="{%   static 'images/prod3.jpeg' %}" alt="">
+  <img src="{%   static 'images/prod4.jpeg' %}" alt="">
+  <img src="{%   static 'images/prod5.jpeg' %}" alt="">
+  
+
+</body>
+</html> 

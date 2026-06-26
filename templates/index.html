@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MtaaniStore-Homepage</title>
+      {% load static%}
+
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
 </head>
 <body>
     
-<h1><marquee behavior="" direction="right">Welcome To MtaaniStore</marquee> </h1>
+ <h1> <marquee behavior="" direction="">Thee MtaaniStore</marquee></h1>
+
+<a href="{% url 'gallery'%}">Gallery</a>
+<br>
+<a href="{% url 'about'%}">About Us</a>
+<br>
+<a href="{% url 'services'%}">Services</a>
+<br>
+<a href="{% url 'contact'%}">contact</a>
+<br>
+<a href="{% url 'home'%}">Home</a>
+
+
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sint dicta officiis laboriosam beatae fugit, ducimus, corporis soluta natus nostrum dolore obcaecati aspernatur tempora nisi voluptatum voluptas, voluptate sed accusamus?
 Molestiae odit quae commodi quibusdam, culpa nam praesentium eaque totam nisi repellat unde placeat quaerat itaque alias, officiis exercitationem illum animi sit quis expedita rerum fugiat cupiditate dolorem. Quas, voluptatem?
 Provident quibusdam voluptatibus dignissimos necessitatibus quos iusto magnam, vel assumenda autem facere rem omnis eaque culpa. Eligendi nisi earum laborum, maxime veritatis dicta obcaecati dolore quidem tenetur repellat voluptas placeat!</p>
