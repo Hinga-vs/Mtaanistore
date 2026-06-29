@@ -17,6 +17,8 @@ urlpatterns = [
     path('gallery/', views.gallery, name = 'gallery'),
 
     path('services/', views.services, name = 'services'),
+
+    path('products/', views.products, name = 'products'),
         
         
 
